@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tela de CRUD Básico</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header-container">
+        <h1>CRUD Utilizando HTML, CSS e JavaScript</h1>
+      </div>
+      <div class="content-container">
+        <div class="form-container">
+            <form id="Formulario">
+                <label for="Input"> Nome: </label>
+                <input id="Input" type="text" placeholder="Digite um nome..." />
+            </form>
+        </div>
+        <div class="display-container">
+            <hr>
+            <h2>Nomes cadastrados:</h2>
+            <div id="names"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
